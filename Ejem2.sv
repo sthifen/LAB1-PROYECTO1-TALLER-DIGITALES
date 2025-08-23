@@ -51,4 +51,3 @@ module hex7seg_al (
     endcase
   assign seg_al = ~seg_cc;   // activo-bajo
 endmodule
-
