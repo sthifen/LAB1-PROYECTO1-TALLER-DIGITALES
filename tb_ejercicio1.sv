@@ -1,4 +1,4 @@
-//Este archivo sera el testbench de ejercicio1.sv 
+//testbench de ejercicio1.sv 
 
 `timescale 1ns/1ps
 
@@ -16,7 +16,7 @@ module tb_control_de_leds_switch_botones;
     .led (led)
   );
 
-  // --- Utilidades de verificación ---
+  // Utilidades de verificación
 
   // Función de referencia: calcula lo que debería salir en 'led'
   function automatic logic [15:0] modelo_esperado(logic [15:0] sw_i, logic [3:0] btn_i);
