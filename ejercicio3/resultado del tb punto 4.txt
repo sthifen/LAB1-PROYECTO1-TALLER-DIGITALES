@@ -1,0 +1,81 @@
+source tb2multiplexor.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+OK  BTN=00  val=0  seg=0000001  AN=11111110  DP=1
+OK  BTN=00  val=1  seg=1001111  AN=11111110  DP=1
+OK  BTN=00  val=2  seg=0010010  AN=11111110  DP=1
+OK  BTN=00  val=3  seg=0000110  AN=11111110  DP=1
+OK  BTN=00  val=4  seg=1001100  AN=11111110  DP=1
+OK  BTN=00  val=5  seg=0100100  AN=11111110  DP=1
+OK  BTN=00  val=6  seg=0100000  AN=11111110  DP=1
+OK  BTN=00  val=7  seg=0001111  AN=11111110  DP=1
+OK  BTN=00  val=8  seg=0000000  AN=11111110  DP=1
+OK  BTN=00  val=9  seg=0000100  AN=11111110  DP=1
+OK  BTN=00  val=a  seg=0001000  AN=11111110  DP=1
+OK  BTN=00  val=b  seg=1100000  AN=11111110  DP=1
+OK  BTN=00  val=c  seg=0110001  AN=11111110  DP=1
+OK  BTN=00  val=d  seg=1000010  AN=11111110  DP=1
+OK  BTN=00  val=e  seg=0110000  AN=11111110  DP=1
+OK  BTN=00  val=f  seg=0111000  AN=11111110  DP=1
+OK  BTN=01  val=0  seg=0000001  AN=11111110  DP=1
+OK  BTN=01  val=1  seg=1001111  AN=11111110  DP=1
+OK  BTN=01  val=2  seg=0010010  AN=11111110  DP=1
+OK  BTN=01  val=3  seg=0000110  AN=11111110  DP=1
+OK  BTN=01  val=4  seg=1001100  AN=11111110  DP=1
+OK  BTN=01  val=5  seg=0100100  AN=11111110  DP=1
+OK  BTN=01  val=6  seg=0100000  AN=11111110  DP=1
+OK  BTN=01  val=7  seg=0001111  AN=11111110  DP=1
+OK  BTN=01  val=8  seg=0000000  AN=11111110  DP=1
+OK  BTN=01  val=9  seg=0000100  AN=11111110  DP=1
+OK  BTN=01  val=a  seg=0001000  AN=11111110  DP=1
+OK  BTN=01  val=b  seg=1100000  AN=11111110  DP=1
+OK  BTN=01  val=c  seg=0110001  AN=11111110  DP=1
+OK  BTN=01  val=d  seg=1000010  AN=11111110  DP=1
+OK  BTN=01  val=e  seg=0110000  AN=11111110  DP=1
+OK  BTN=01  val=f  seg=0111000  AN=11111110  DP=1
+OK  BTN=10  val=0  seg=0000001  AN=11111110  DP=1
+OK  BTN=10  val=1  seg=1001111  AN=11111110  DP=1
+OK  BTN=10  val=2  seg=0010010  AN=11111110  DP=1
+OK  BTN=10  val=3  seg=0000110  AN=11111110  DP=1
+OK  BTN=10  val=4  seg=1001100  AN=11111110  DP=1
+OK  BTN=10  val=5  seg=0100100  AN=11111110  DP=1
+OK  BTN=10  val=6  seg=0100000  AN=11111110  DP=1
+OK  BTN=10  val=7  seg=0001111  AN=11111110  DP=1
+OK  BTN=10  val=8  seg=0000000  AN=11111110  DP=1
+OK  BTN=10  val=9  seg=0000100  AN=11111110  DP=1
+OK  BTN=10  val=a  seg=0001000  AN=11111110  DP=1
+OK  BTN=10  val=b  seg=1100000  AN=11111110  DP=1
+OK  BTN=10  val=c  seg=0110001  AN=11111110  DP=1
+OK  BTN=10  val=d  seg=1000010  AN=11111110  DP=1
+OK  BTN=10  val=e  seg=0110000  AN=11111110  DP=1
+OK  BTN=10  val=f  seg=0111000  AN=11111110  DP=1
+OK  BTN=11  val=0  seg=0000001  AN=11111110  DP=1
+OK  BTN=11  val=1  seg=1001111  AN=11111110  DP=1
+OK  BTN=11  val=2  seg=0010010  AN=11111110  DP=1
+OK  BTN=11  val=3  seg=0000110  AN=11111110  DP=1
+OK  BTN=11  val=4  seg=1001100  AN=11111110  DP=1
+OK  BTN=11  val=5  seg=0100100  AN=11111110  DP=1
+OK  BTN=11  val=6  seg=0100000  AN=11111110  DP=1
+OK  BTN=11  val=7  seg=0001111  AN=11111110  DP=1
+OK  BTN=11  val=8  seg=0000000  AN=11111110  DP=1
+OK  BTN=11  val=9  seg=0000100  AN=11111110  DP=1
+OK  BTN=11  val=a  seg=0001000  AN=11111110  DP=1
+OK  BTN=11  val=b  seg=1100000  AN=11111110  DP=1
+OK  BTN=11  val=c  seg=0110001  AN=11111110  DP=1
+OK  BTN=11  val=d  seg=1000010  AN=11111110  DP=1
+OK  BTN=11  val=e  seg=0110000  AN=11111110  DP=1
+OK  BTN=11  val=f  seg=0111000  AN=11111110  DP=1
+All tests completed
+$finish called at time : 64 ns : File "/home/steven/project_2/project_2.srcs/sim_1/new/tb2multiplexor.sv" Line 109
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb2multiplexor_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 12366.801 ; gain = 9.637 ; free physical = 1322 ; free virtual = 11008
+create_wave_config; add_wave -recursive /tb2multiplexor/*; run allzx

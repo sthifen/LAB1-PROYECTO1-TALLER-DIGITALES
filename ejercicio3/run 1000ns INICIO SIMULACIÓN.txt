@@ -1,0 +1,25 @@
+
+# run 1000ns
+=== INICIO SIMULACIÓN ===
+OK: x=00000000 salida=0000001
+OK: x=00000001 salida=1001111
+OK: x=00000002 salida=0010010
+OK: x=00000003 salida=0000110
+OK: x=00000004 salida=1001100
+OK: x=00000005 salida=0100100
+OK: x=00000006 salida=0100000
+OK: x=00000007 salida=0001111
+OK: x=00000008 salida=0000000
+OK: x=00000009 salida=0000100
+OK: x=0000000a salida=0001000
+OK: x=0000000b salida=1100000
+OK: x=0000000c salida=0110001
+OK: x=0000000d salida=1000010
+OK: x=0000000e salida=0110000
+OK: x=0000000f salida=0111000
+=== FIN SIMULACIÓN ===
+$stop called at time : 160 ns : File "/home/steven/project_2/project_2.srcs/sim_1/new/tb_hex7seg.sv" Line 70
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_hex7seg_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+
+
